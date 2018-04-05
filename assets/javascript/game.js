@@ -91,7 +91,7 @@ $(document).ready(function() {
         {
             $("#defenders").html("");
         }
-        else if(parseInt($("attacker").attr("health"))<= 0)
+        else if(parseInt($("#attacker").attr("health"))<= 0)
         {
             $("#attackers").html("");
         }
