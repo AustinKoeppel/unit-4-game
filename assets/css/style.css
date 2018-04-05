@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/7aa9a61ba94e18cecf823ec06bd4823a.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.character{
+    text-align: center;
+    background-color: aliceblue;
+    border: solid 1px black;
+    float: left;
+    margin: 2%;
+    height: 180px;
+    width: 180px;
+}
+img{
+    padding: 5px 5px;
+    max-height: 120px;
+}
+.row
+{
+    width:100%;
+    overflow: auto;
+}
